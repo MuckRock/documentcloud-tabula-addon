@@ -9,3 +9,5 @@ properties:
     title: URL of tabula template
     type: string
     format: uri
+categories:
+  - extraction
