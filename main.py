@@ -7,6 +7,7 @@ download the resulting CSVs as a zip file.
 
 import os
 import sys
+import json
 import fnmatch
 import zipfile
 import requests
