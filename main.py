@@ -37,11 +37,11 @@ class Tabula(AddOn):
                         json.loads(resp.text)
                     except ValueError as e:
                         self.set_message("No valid JSON tabula template was found in the URL provided, exiting...")
-                        sys.exit(1)
+                        sys.exit(0)
                 return True
             
         self.set_message("No valid JSON tabula template was found in the URL provided, exiting...")
-        sys.exit(1)
+        sys.exit(0)
 
     def template_based_extract(self, url):
         """This will run tabula's extraction with a template you provided"""
