@@ -1,6 +1,6 @@
 title: Tabula Spreadsheet Extraction
 description: 'Have a PDF with embedded tables? This Add-On runs the open source [Tabula library](https://tabula.technology) against a selected PDF and tries to identify and extract any tables.'
-instructions: 'You can provide a Google Drive or Dropbox URL to a Tabula template you have generated already to run against the documents. If no template is provided, tabula will try to guess the boundaries of the tables within the document.'
+instructions: 'You can provide a Google Drive or Dropbox URL to a Tabula template you have generated already to run against the documents. If no template is provided, tabula will try to guess the boundaries of the tables within the document. If you are looking for more accurate table extraction on image based PDFs or PDFs with handwriting, try our [Textract Table Extractor](https://www.documentcloud.org/app?q=%2B%20#add-ons/MuckRock/textract-table-extractor-add-on) and [Azure Table Extractor](https://www.documentcloud.org/app?q=%2B%20#add-ons/MuckRock/azure-table-extractor) Add-Ons'
 type: object
 documents:
   - selected
