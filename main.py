@@ -78,6 +78,7 @@ class Tabula(AddOn):
         a zip file of all the CSVs. If no template is provided, it guesses
         the boundaries for each file
         """
+        self.client.session.headers.update({'User-Agent': 'Tabula Add-On'})
         if self.get_document_count() is None:
             self.set_message("Please select at least one document.")
             return
